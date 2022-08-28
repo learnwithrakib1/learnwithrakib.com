@@ -169,10 +169,8 @@ section .title::after{
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
-    background: url("images/profile-9.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: black;
+    
 }
 .home .max-width{
   width: 100%;
@@ -678,4 +676,8 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+.photo-memory img{
+    width: 100%;
 }
