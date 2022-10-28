@@ -29,6 +29,8 @@ html{
 /* all similar content styling codes */
 section{
     padding: 100px 0;
+    background: #0491e3;
+    color: #a8f7ff;
 }
 .max-width{
     max-width: 1300px;
@@ -169,8 +171,7 @@ section .title::after{
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
-    background: black;
-    
+    background: #040346;
 }
 .home .max-width{
   width: 100%;
@@ -676,8 +677,24 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    .memory .left img{
+        height: 350px;
+        width: 350px;
+    }
 }
 
 .photo-memory img{
     width: 100%;
+}
+
+.memory .memory-content .left img{
+    height: 260px;
+    width: 374px;
+    object-fit: cover;
+    padding-right: 16px;
+}
+
+.memory, .Memory{
+    color: #000;
+    background: rgb(255 255 255);
 }
