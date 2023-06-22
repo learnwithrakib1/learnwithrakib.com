@@ -97,7 +97,7 @@ form{
 	top: 50%;
 	transform: translateY(-50%);
 	color: #999;
-	font-size: 18px;
+	font-size: 15px;
 	transition: .3s;
 }
 
@@ -153,15 +153,15 @@ form{
 
 a{
 	display: block;
-	text-align: right;
+	text-align: center;
 	text-decoration: none;
-	color: #999;
-	font-size: 0.9rem;
+	color: #130202;
+	font-size: 18px;
 	transition: .3s;
 }
 
 a:hover{
-	color: #38d39f;
+	color: #0a5bf1;
 }
 
 .btn{
